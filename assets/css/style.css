@@ -1,0 +1,25 @@
+
+
+header {
+    background-color: lightgray;
+    display: flex;
+
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    color:rgb(197, 143, 236);
+}
+
+.nav-item {
+    display: inline;
+    list-style-type: none;
+    align-items: flex-end;
+    margin: 7px;
+    padding; 5px;
+}
+
+div img {
+    width: 700px;
+}
