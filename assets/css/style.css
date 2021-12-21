@@ -1,6 +1,6 @@
-* {
+body {
     background-color: lightgray;
-    margin: 5px;
+    padding: 5px;
 }
 
 header {
@@ -8,24 +8,17 @@ header {
     display: flex;
 }
 
-img {
+.banner {
+    width: 100%;
     max-width: 700px;
     padding: 5px;
     margin: 5px;
-}
-
-main {
-    display: flex-wrap;
 }
 
 h1, h2, h3 {
     margin: 5px;
     padding: 5px;
     color:rgb(197, 143, 236); 
-}
-
-p {
-    display: flex-wrap wrap;
 }
 
 .nav-item {
@@ -41,9 +34,12 @@ article {
     border: 2px solid grey;
 }
 
-.project-secondary p {
-    max-width: 30%;
-    flex-direction: row;
+.small-projects-container {
+    display: flex;
+}
+
+.main-article-photo {
+    width: 90%;
 }
 
 .thumbnail {
