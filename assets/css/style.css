@@ -14,6 +14,10 @@ img {
     margin: 5px;
 }
 
+main {
+    display: flex-wrap;
+}
+
 h1, h2, h3 {
     margin: 5px;
     padding: 5px;
@@ -30,15 +34,6 @@ p {
     align-items: right;
     margin: 7px;
     padding: 5px;
-}
-
-.nav-item li.hover {
-    color: rgb(74, 74, 241);
-    transition: all 0.3s ease-in-out;
-}
-
-section {
-    display:flexbox;
 }
 
 article {
