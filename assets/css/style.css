@@ -1,25 +1,62 @@
-
+* {
+    background-color: lightgray;
+    margin: 5px;
+}
 
 header {
     background-color: lightgray;
     display: flex;
-
 }
 
-h1 {
+img {
+    max-width: 700px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1, h2, h3 {
     margin: 5px;
     padding: 5px;
-    color:rgb(197, 143, 236);
+    color:rgb(197, 143, 236); 
+}
+
+p {
+    display: flex-wrap wrap;
 }
 
 .nav-item {
     display: inline;
     list-style-type: none;
-    align-items: flex-end;
+    align-items: right;
     margin: 7px;
-    padding; 5px;
+    padding: 5px;
 }
 
-div img {
-    width: 700px;
+.nav-item li.hover {
+    color: rgb(74, 74, 241);
+    transition: all 0.3s ease-in-out;
+}
+
+section {
+    display:flexbox;
+}
+
+article {
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+.project-secondary p {
+    max-width: 30%;
+    flex-direction: row;
+}
+
+.thumbnail {
+    width: 200px;
+}
+
+section ul {
+    display:inline-flex;
+    list-style-type: none;
+    justify-content: space-evenly;
 }
