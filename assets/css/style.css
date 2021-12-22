@@ -1,13 +1,16 @@
+/* the main foundational colors and style settings for the whole page */
 body {
     background-color: lightgray;
     padding: 5px;
 }
 
+/* This includes my name and links to other sections on the page */
 header {
     background-color: lightgray;
     display: flex;
 }
 
+/* This is the big new picture of me */
 .banner {
     width: 100%;
     max-width: 700px;
@@ -15,16 +18,19 @@ header {
     margin: 5px;
 }
 
+/* Base styles on all headdings */
 h1, h2, h3 {
     margin: 5px;
     padding: 5px;
     color:rgb(197, 143, 236); 
 }
 
+/* Making my name bigger since the page is all about me */
 h1 {
     font-size: 40px;
 }
 
+/* setting styles and spacing for the items in navigation */
 .nav-item {
     display: inline;
     list-style-type: none;
@@ -33,41 +39,49 @@ h1 {
     padding: 5px;
 }
 
+/* Setting the base styles on all articles in projects section */
 .project-main, .project-secondary {
     padding: 10px;
     border: 2px solid grey;
 }
 
+/* Making a container for the secondary articles so they can flex with flexbot */
 .small-projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/* Setting parameters for the secondary articles so they can flex and have consistent styling */
 .project-secondary {
     flex-basis: 350px;
     box-sizing: border-box;
     margin:5px;
 }
 
+/* setting parameters for how projects change with media screens an when the browser window is small */
 @media screen and (max-width:425px) {
     .project-secondary{
         flex-basis: 100%;
     }
 }
 
+/* making the main article photo fill the whole container */
 .main-article-photo {
     width: 100%;
 }
 
+/* setting secondary article pictures to fill the boxes they are in */
 .thumbnail {
     width: 100%;
 }
 
+/* sets resume screenshot to be a small picture */
 .resume {
     width: 200px;
 }
 
+/* style and spacing for the links to my social media to contact me */
 .contact-me-list {
     display:flex;
     list-style-type: none;
