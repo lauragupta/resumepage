@@ -21,6 +21,10 @@ h1, h2, h3 {
     color:rgb(197, 143, 236); 
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .nav-item {
     display: inline;
     list-style-type: none;
@@ -54,8 +58,13 @@ article {
     width: 100%;
 }
 
-section ul {
-    display:inline-flex;
+.resume {
+    width: 200px;
+}
+
+.contact-me-list {
+    display:flex;
     list-style-type: none;
     justify-content: space-evenly;
 }
+
