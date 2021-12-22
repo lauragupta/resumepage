@@ -36,14 +36,22 @@ article {
 
 .small-projects-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-secondary {
+    flex-basis: 350px;
+    box-sizing: border-box;
+    margin:5px;
 }
 
 .main-article-photo {
-    width: 90%;
+    width: 100%;
 }
 
 .thumbnail {
-    width: 200px;
+    width: 100%;
 }
 
 section ul {
