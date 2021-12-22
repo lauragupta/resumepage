@@ -33,7 +33,7 @@ h1 {
     padding: 5px;
 }
 
-article {
+.project-main, .project-secondary {
     padding: 10px;
     border: 2px solid grey;
 }
@@ -48,6 +48,12 @@ article {
     flex-basis: 350px;
     box-sizing: border-box;
     margin:5px;
+}
+
+@media screen and (max-width:425px) {
+    .project-secondary{
+        flex-basis: 100%;
+    }
 }
 
 .main-article-photo {
