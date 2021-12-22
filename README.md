@@ -1,16 +1,21 @@
 # resumepage
 
-This site is to showcase my work so far. It is a responsive site using a lot of CSS including flexbox and styling for media screens. There are lots of links and screenshots to showcase some of the sites I have done so far. Navigation links jump to the corresponding sections on the page. My most recent refactoring project is highlighted on the page with a larger section and photo for emphasis. I also updated my resume to emphasize my new carreer path. 
+This site is to showcase my work so far. It is a responsive site using a lot of CSS including flexbox and styling for media screens. There are lots of links and screenshots to showcase some of the sites I have done so far. Navigation links jump to the corresponding sections on the page. My most recent refactoring project is highlighted on the page with a larger section and larger photo for emphasis. I also updated my resume to emphasize my new career path. 
 
 ## Features
-Here are some screenshots of the way the site is responsive... 
+Here are some screenshots of the way the site is responsive. 
+
+This is the top of the page for wide screens...
 
 ![Top of site for wide screens](assets/images/headerNavPhotoAboutMeForWideScreens.png)
 
+And the top of the page for mobil screens.
 ![Top of page for mobil](/assets/images/headerNavPhotoAboutMeForMobil.png)
 
+This is part of my project section for wide screens...
 ![Projects for wide screens](assets/images/projectsForWideScreens.png)
 
+And those projects on mobil screens. 
 ![Projects for mobil](assets/images/projectsForMobil.png)
 
 
@@ -21,14 +26,14 @@ Here are some screenshots of the way the site is responsive...
 
 ## Deployed Link
 
-* [See Live Site](#https://lauragupta.github.io/resumepage/#contact-info)
+* [See Live Site](https://lauragupta.github.io/resumepage/)
 
 
 ## Authors
 
 * **Laura Gupta** 
 
-- [Link to Portfolio Site](#https://lauragupta.github.io/resumepage/#contact-info)
+- [Link to Portfolio Site](https://lauragupta.github.io/resumepage/#contact-info)
 - [Link to Github](https://github.com/lauragupta)
 - [Link to LinkedIn](https://www.linkedin.com/in/laura-gupta-5a277158/)
 
